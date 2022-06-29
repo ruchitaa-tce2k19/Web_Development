@@ -1,1 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fc9d03;
+font-size:18px;
+}
+
+li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px 30px;
+  text-decoration: none;
+}
+.logo img{
+   position:absolute;
+   margin-top:1px;
+   margin-left:1px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#LOGO NAME{
+position: absolute;
+display:block;
+font-size:40px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 20%;
+  border-radius:60%;
+}
+.container {
+  padding: 14px 20px;
+  margin: 0 auto;
+  font-size:20px;
+  width: 500px;
+}
+
+span.psw {
+  float: right;
+  padding: 16px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+button {
+  background-color: #fc7f03;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+font-size:20px;
+border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.signup {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px 18px;
+  background-color:#6495ED ;
+  
+}
+
+.loginPg {  
+  position: fixed;  
+  z-index: 1;  
+  left: 0;
+  top: 0;
+  width: 100%;  
+  height: 100%;  
+  overflow: auto;    
+  padding-top: 60px;
+  background-color: rgba(245, 158, 66,0.2);  
+   
+}
+.loginBg, .bgimg{
+opacity:0.6;
+  }
+
+.bgimg1{
+opacity:0.6;
+transform:scaleX(-1);
+  }
+ 
+.upperbox{
+font-family: "Lucida Console", monospace;
+font-size:25px;
+background-color: #6495ED;
+}
+
+#announcement1{
+position:absolute;
+  left:30px;
+  top:180px;
+  height:550px;
+  width:300px;
+  background-color:#fcc203;
+  text-color:black;
+  border: 1px solid #000000;
+}
+
+#announcement{
+position:absolute;
+  right:30px;
+  top:180px;
+  height:830px;
+  width:300px;
+  background-color:#fcc203;
+  text-color:black;
+  border: 1px solid #000000;
+}
+
+#announcement p,#announcement1 p{
+  padding: 7px;
+  font-size:20px;
+  text-align:center;
+}
+
+#announcement a:link,#announcement1 a:link {
+  text-decoration: none;
+  color:black;
+}
+
+#announcement a:hover,#announcement1 a:hover {
+  text-decoration: underline;
+  background:white;
+  color: black;
+}
+
+#announcement  a:visited,#announcement1 a:visited {
+  color: black;
+}
+
+#announcement h2,#announcement1 h2,#about h1, #feedback h1{
+text-shadow: 2px 2px 5px red;
+ text-align:center;
+text-transform: uppercase;
+background-color: #fc9d00;
+}
+
+#sliding{
+position:absolute;
+left:340px;
+top:180px;
+height:550px;
+width:840px;
+}
+
+#Oppsliding{
+position:absolute;
+left:40px;
+top:180px;
+height:550px;
+width:1000px;
+}
+
+#TextBox{
+  position:absolute;
+    right:70px;
+    top:150px;
+    height:550px;
+    width:300px;
+    text-color:black;
+  }
+
+#TextBox p{
+  position:absolute;
+    right:20px;
+    top:5px;
+    height:550px;
+    width:350px;   
+    text-color:black;     
+    font-weight: bold;
+    font-family: 'Square Peg', cursive;
+    font-size: 250%;
+  }
+.box{
+  width: 1470px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;  
+  background-color: #34d6eb;
+}
+.box1{
+  width: 1470px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0; 
+  background-color: #34ebbd; 
+}
+.box2{
+  width: 1470px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0; 
+  background-color: #ebd934; 
+}
+
+#b1{
+position:absolute;
+  left:50px;
+  top:770px;
+}
+#b1 a:hover,#b2 a:hover,#b3 a:hover{
+opacity:70%;}
+
+#b2{
+position:absolute;
+  left:425px;
+  top:770px;
+}
+#b3{
+position:absolute;
+  left:800px;
+  top:770px;
+}
+
+#about {
+    position:absolute;
+    left:30px;
+    top:1100px;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+#about p{
+    font-size:25px;	
+    width:900px;
+    font-family: 'Dancing Script';
+}
+
+.about{
+	position:absolute;
+	list-style-type: none;
+    left:1050px;
+    top:1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size:35px;	
+	width:400px;
+text-align:left;
+font-family: 'Annie Use Your Telescope', cursive;
+background-color:#6495ED;
+  border: 1px solid #000000;
+}
+
+#aboutimg{
+position:absolute;
+    left:70px;
+    top:1900px;
+}
+
+.about2{
+	position:absolute;
+    top:2000px;
+left:700px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size:20px;	
+	width:700px;
+	text-align:left;
+}
+
+footer {
+	position:absolute;
+display:flex;
+left:200px;
+ top:2600px;
+width:1080px;
+	background-color: #f8bf87;
+	padding: 10px 50px 10px 50px;
+	justify-content: space-between;
+  margin: 30px 0px 0px 0px;
+}
+
+.footer-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+.footer-head {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.footer-content {
+	font-size: 20px;
+}
+
+.icon-panel {
+	display: flex;
+	float: left;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.icon-panel-item {
+	padding: 10px;
+	font-size: 48px;
+}
+
+.icon-panel-item a {
+	color: #0E0E0F;
+}
