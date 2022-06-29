@@ -1,1 +1,16 @@
-
+<?xml version = "1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "patient.xsl"?>
+<class>
+<patient>
+<Name>Deepak</Name>
+<Age>21</Age>
+</patient>
+<patient>
+<Name>Varsha</Name>
+<Age>20</Age>
+</patient>
+<patient>
+<Name>Varhini</Name>
+<Age>20</Age>
+</patient>
+</class>

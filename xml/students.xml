@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "students.xsl"?>
+<class>
+	<student>
+		<firstname>varshini</firstname>
+		<lastname>S</lastname>
+		<username>varsh30</username>
+	</student>
+	<student>
+		<firstname>Ruchitaa</firstname>
+		<lastname>Raj</lastname>
+		<username>ruchi25</username>
+	</student>
+	<student>
+		<firstname>Thomas</firstname>
+		<lastname>Edison</lastname>
+		<username>thom_ed</username>
+	</student>
+</class>
