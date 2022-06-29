@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function signup() {
+      const body = {
+        uname: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        pass: document.getElementById('pass').value,
+      }
+      fetch('http://localhost:3069/signup', {
+        method: "POST",
+        body: JSON.stringify(body),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+      })
+    }
+  </script>
+  <title>Sign up to AICTE</title>
+  <style>
+    .loginPg {
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      padding-top: 60px;
+      background-color: rgba(245, 158, 66, 0.2);
+    }
+    .loginBg,
+    .bgimg {
+      opacity: 0.6;
+    }
+    body,
+    input[type=submit] {
+      font-family: sans-serif;
+      font-size: large;
+      font-weight: bold;
+    }
+    input[type=text],
+    input[type=password] {
+      border-radius: 5px;
+      padding: 5px;
+      width: 500px;
+    }
+    div.button {
+      text-align: right;
+
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    form {
+      width: 500px;
+      margin: auto;
+      padding: 20px;
+      background: transparent;
+    }
+  </style>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="loginBg">
+    <img src="loginBg.jpg" width="100%">
+  </div>
+  <div class="loginPg" id="id01">
+    <form id="myForm" method="post" target="#" onsubmit="return validate()">
+      <h1>Sign up to AICTE</h1>
+      <p>To be able to use all features of AICTE Website you will require an account. Filling the form will create a new
+        account if you don't have one yet.</p>
+      Name<br>
+      <input type="text" name="name" id="name" placeholder="Enter name"><br><br>
+      Email<br>
+      <input type="text" name="email" id="email" placeholder="Enter email"><br><br>
+      Retype email<br>
+      <input type="text" name="retype_email" placeholder="re-enter same email"><br><br>
+      Create a password<br>
+      <input type="password" name="password" id="pass" placeholder="Enter password"><br><br>
+      Retype password<br>
+      <input type="password" name="retype_password" placeholder="re-enter same password"><br><br>
+      <label>
+        <input type="checkbox" name="terms">By signing up to AICTE you agree to your
+        <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>
+      </label>
+      <div class="button">
+        <input onclick="signup()" type="button" class="button" value="Set Up Account">
+        <input type="button" class="button" onclick="location.href='login.html'" value="Close">
+      </div>
+  </div>
+  </form>
+</body>
+</html>

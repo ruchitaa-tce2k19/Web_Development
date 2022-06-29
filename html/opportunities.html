@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>OPPORTUNITIES</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#inst").click(function(){
+    $(".box").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#stu").click(function(){
+    $(".box1").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#fac").click(function(){
+    $(".box2").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".quote").toggle();
+  });
+});
+</script>
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">    
+          <div class="logo"><a href="#"><img src="AICTE.png"  width="170" height="115"></a></div>
+          <nav>      
+            <ul>  
+              <li><a href=#fac>FOR FACULTIES</a></li>           
+              <li><a href=#stu>FOR STUDENTS</a></li>
+              <li><a href=#inst>FOR INSTITUTION</a></li>                         
+            </ul>
+          </nav>          
+    </section>
+    <!-- End Header --> 
+<div class="upperbox">All India Council for Technical Education</div>
+    <div class="bgimg">         
+        <img class="image1"  src="frontpg.jpg" width="100%" height="600"></div>                
+        <div id="Oppsliding" style="max-width:840px">
+            <div class="slide">
+                    <img src="opp_main.jpg" style="width:120%" height="500" alt="img"/>
+                </div>
+                <div class="slide">
+                    <img src="Op_1.jpeg" style="width:120%" height="500" alt="img"/>
+                </div>
+                <div class="slide">
+                    <img src="Op_2.jpeg" style="width:120%" height="500" alt="img"/>
+                </div>
+                <div class="slide">
+                    <img src="Op_3.jpg" style="width:120%" height="500" alt="img"/>
+                </div>
+        </div></div>
+        <div id="TextBox">
+          <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+          <p class="quote">
+            “Opportunities, many times, are so small that we glimpse them not and yet they are often the seeds of great enterprises. Opportunities are also everywhere and so you must always let your hook be hanging. When you least expect it, a great fish will swim by.”<br>–Og Mandino
+          </p> 
+		<button> Click to hide/show</button>          
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("slide");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout( carousel,2000); // Change image every 2 seconds
+            }
+            </script>
+            <div id="inst">
+            <div class="institution">
+                <h1>
+                  INSTITUTIONAL DEVELOPMENT SCHEMES
+                </h1>
+                <div class="box">
+                  <a href="https://idealnet.aicte-india.org/" target="_blank"><h2>AICTE- IDEA LAB</h2></a>
+                   <p>
+                    AICTE has decided to establish AICTE-IDEA (Idea Development, Evaluation & Application) Lab in AICTE approved institutions, encouraging students for application of science, technologies, engineering and mathematics (STEM) fundamentals towards enhanced hands-on experience, learning by doing and product visualisation.
+                   </p> 
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/IDC/SPICES_SchemeDocument2022.pdf" target="_blank"><h2>AICTE-SCHEME FOR PROMOTING INTERESTS, CREATIVITY AND ETHICS AMONG STUDENTS (SPICES)</h2></a>  
+                   <p>
+                    To energize and position students club/ Chapters/ Societies as facilitating entity for pursuit of individual interests, creative work, showcasing talent, networking and teamwork opportunities, social experience; organization and management skills, exposure to professional ethics etc.
+                   </p> 
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/IDC/GOC%20Scheme%20Document-May%202021.pdf" target="_blank"><h2>GRANT FOR ORGANISING CONFERENCE</h2></a> 
+                   <p>
+                    The scheme provides financial assistance to institutions for organizing Conference at National and International level in various fields of Technical Education.
+                   </p>           
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/modrob/MODROB%20Scheme%20Guidelines%2024_12_2021.pdf" target="_blank"><h2>MODERNISATION AND REMOVAL OF OBSOLESCENCE (MODROBS)</h2></a>
+                   <p>
+                    The scheme equips technical institutions with infrastructural facilities, laboratories, workshops, and computing facilities to enhance teaching, training and research capabilities. The limit of funding is Rs 20 Lakhs and project duration is 2 years
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/ess/ESS%20Scheme%20Document.pdf" target="_blank"><h2>E- SHODH SINDHU(SUBSCRIPTION TO E-JOURNALS)</h2></a>
+                   <p>
+                    Free access to e-Journals/ e-Resources to AICTE approved Government/ Government-Aided technical institutes is facilitated through INFLIBNET, subscription of which is paid by AICTE.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/CAFES/CAFES%20SCHEME%20DOCUMENT%202020-21_20_01_21.pdf" target="_blank"><h2>SCHEME FOR CAMPUS ACCOMMODATION & FACILITIES ENHANCING SOCIAL EXPERIENCE (CAFES)</h2></a>
+                   <p>
+                    The scheme aims to support Government/ Government-aided engineering colleges/ University departments/Polytechnics for construction of girls/boys hostels for students /researchers belonging to SC&ST/ Differently abled/ NER students. Total funding is Rs 3.25 crore, which to be provided to institute to complete the project within the period of 3 years.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/GAINER%20Scheme%20Document.pdf" target="_blank"><h2>AICTE- GRANT FOR AUGMENTING INFRASTRUCTURE IN NORTH EASTERN REGION (GAINER)</h2></a>
+                   <p>
+                    To enhance the functional efficiency of the technical institutes located in far-flung areas of North East India, AICTE has launched a scheme for providing logistics support to the technical institutes of NER by extending financial assistance for construction of rain water harvesting system, alternative power support & availability/connection of internet facility
+                   </p>
+                   <br>
+                  <a href="https://www.aicte-india.org/sites/default/files/margdarshak/Revised%20Guideline%20on%20Margdarshan%20Inititative.pdf" target="_blank"><h2>MARGDARSHAN INITIATIVE</h2></a>
+                   <p>
+                    Part 1 : Margdarshaks
+                    Senior academicians (serving or superannuated) shall be nominated as Margdarshak(MD) to act as individual mentors for guiding beneficiary institutes to achieve the NBA accreditation and enhance the quality of technical education.
+                    <br>
+                    <br>                    
+                    Part 2 : Margdarshan Institute
+                    A well-established AICTE approved institute referred to as Margdarshan Institute or Mentor Institute (MI) is supported with an objective to mentor up to 10 nearby institutes in achieving the NBA accreditation.
+                   </p>
+                </div>
+              </div>
+              <div id="stu">
+                <div class="students">
+                  <h1>
+                    STUDENT DEVELOPMENT SCHEMES
+                  </h1>
+                  <div class="box1">
+                    <a href="https://www.nitie.ac.in/inae/" target="_blank"><h2>INAE 4th INAE YOUTH CONCLAVE ON SEPTEMBER 24, 2021 JOINTLY WITH IIT BOMBAY; NITIE, MUMBAI AND ICT, MUMBAI</h2></a>
+                   <p>
+                    Pandemic and Engineering Intervention
+                   </p> 
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/opportunity/Seat%20matrix%202021.pdf" target="_blank"><h2>RESERVATION OF SEATS IN DEGREE LEVEL TECHNICAL COURSES FOR STATES/ UTs LACKING IN SUCH FACILITIES FOR ACADEMIC SESSIONS 2021-22</h2></a>  
+                   <p>
+                    As per the information received from Department of Higher Education, Ministry of
+                    Education, the details of the seats allocated in Degree Level Technical Courses for2021-22,
+                    in respect of the North Eastern States/UTs and other categories are given in the attached
+                    list.
+                   </p> 
+                   <br>
+                   <a href="https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=email&eventid=3084931&sessionid=1&key=644AABCF4FF63E7AE94362535BE77070&regTag=&V2=false&sourcepage=register" target="_blank"><h2>THE DRUM x ADOBE: CREATIVITY FINDS A WAY</h2></a> 
+                   <p>
+                    Find out how creativity can drive business results.
+                   </p>           
+                   <br>
+                   <a href="http://www.knowyourcollege-gov.in/" target="_blank"><h2>KNOW YOUR COLLEGE (KYC)</h2></a>
+                   <p>
+                    A one stop shop to know more about your college.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/Books_at_special_price.pdf" target="_blank"><h2>BOOKS AT SPECIAL PRICE</h2></a>
+                   <p>
+                    A one stop shop to grow your knowledge.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/opportunity.pdf" target="_blank"><h2>ISG-UBU INVITES INDIAN-MEKONG SCHOLARS TO JOIN THE PROJECT</h2></a>
+                   <p>
+                    An Opportunity to enhance your Practice.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/GC-Finale.pdf" target="_blank"><h2>GRAND CHALLENGE FOR DESIGN & DEVELOPMENT FOR MOBILE ACCESSORIES PRODUCTS BASED ON LI-ION CELLS- SEEKING PARTICIPATION</h2></a>
+                   <p>
+                    Ministry of Electronics and Information Technology (MeitY), Government of India has established a Centre of Excellence (CoE) for Products Based on Li-ion Cells (Post-Cell) along with the Government of Uttar Pradesh at CDAC Noida in association with India Cellular & Electronics Association (ICEA) for promoting design and development of products used as Mobile handset accessories and other electronic applications. The CoE will serve as a one-stop facility/centre for R&D, design & development of products based on Li-ion Cells (Post-Cell).
+                   </p>
+                   <br>
+                  <a href="http://mhrdnats.gov.in/" target="_blank"><h2>NATIONAL APPRENTICESHIP TRAINING SCHEME (NATS)</h2></a>
+                   <p>
+                    The National Apprenticeship Training Scheme in India is a one year programme equipping technically qualified youth with practical knowledge and skills required in their field of work.
+                   </p>
+                   <a href="https://www.aicte-india.org/sites/default/files/stdc/opportunity/FSF21.pdf" target="_blank"><h2>FOSSEE SUMMER FELLOWSHIP 2021 ONLINE</h2></a>
+                   <p>
+                    The FOSSEE team at IIT Bombay has started the registrations for the Summer Fellowship to hire interns.
+                   </p>
+                   <a href="https://www.aicte-india.org/sites/default/files/stdc/opportunity/ALTTC.pdf" target="_blank"><h2>INTERNSHIP & PROJECT TRAINING FOR DIPLOMA/UG/PG STUDENTS OF ENGINEERING/FINANCE/MANAGEMENT/LAW STREAM AT ALTTC, BSNL, GHAZIABAD</h2></a>
+                   <p>
+                    ALTTC (Advanced Telecom Training Centre), Ghaziabad, an Apex Training Centre of BSNL under Ministry of Communication, Govt. of India has started conducting online Live and INTERACTIVE Vocational Training for students to Bridge the gap between Industry and Academia at ALTTC, BSNL, Ghaziabad. ALTTC, BSNL, Ghaziabad is also centre of Excellence of ITU (Geneva) in the priority areas of wireless and Fixed Broadband, IoT and Cyber Security.
+                   </p>
+                  </div>
+                </div>
+              </div>
+              <div id="fac">
+                <div class="faculties">
+                  <h1>
+                    FACULTY DEVELOPMENT SCHEMES
+                  </h1>
+                  <div class="box2">
+                    <a href="https://www.aicte-india.org/sites/default/files/guidlines%20upload%20website.pdf" target="_blank"><h2>GENERAL GUIDELINES FOR ALL FDC SCHEMES</h2></a>
+                   <p>
+                    General Guidelines Applicable to all Faculty Development Schemes of AICTE.
+                   </p> 
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/NITTT%20Scheme%20document.pdf" target="_blank"><h2>AICTE- NATIONAL INITIATIVE FOR TECHNICAL TEACHERS TRAINING (AICTE - NITTT)</h2></a>  
+                   <p>
+                    In order to train the Inductee Teachers in AICTE approved / recognised institutions, National Initiative for Technical Teachers Training (for Inductee Teachers) has been launched. It imparts training to the Inductee Teachers in three phases. The first phase of the training programme for the Inductee Teachers shall be conducted in Massive Open Online Courses (MOOCs) mode for eight modules on the SWAYAM platform through the NITTT portal www.nittt.ac.in followed by one-month industrial internship (second phase) and then mentor based training (third phase).
+                   </p> 
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/VISVESVARAYA%20BEST%20TEACHER%20AWARDS.pdf" target="_blank"><h2>AICTE-VISVESVARAYA BEST TEACHERS AWARDS</h2></a> 
+                   <p>
+                    This scheme is aimed to recognize the meritorious faculties on Teachers Day i.e. 5th September every year at National level and encourage them to update themselves to the ever changing needs of higher education at global level and thereby becoming an effective contributor towards the society.
+                   </p>           
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/QIP%20Scheme%20Document.pdf" target="_blank"><h2>AICTE-QUALITY IMPROVEMENT PROGRAMME</h2></a>
+                   <p>
+                    The main objective of the programme is to upgrade the qualification of the faculty members of the degree level institutions in the country. Scholarship @Rs. 15000/-PM and Rs. 5000/ PM are given to Ph.D/ M.Tech. Scholars. Total 106 QIP centers are in the country.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/AQIS_General_Instructions%202017_18.pdf" target="_blank"><h2>AICTE-RESEARCH PROMOTION SCHEME (RPS)</h2></a>
+                   <p>
+                    This scheme Promotes Research in identified thrust areas of in Technical Education. RPS is aimed to create research ambience in the institutes by promoting research in engineering sciences and innovations in established and newer technologies; and to generate Master’s and Doctoral degree candidates to augment the quality of faculty and research. The limit of funding is Rs 25 Lakh for project duration of 3 years.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/QIP%20Foreign%20%20scheme%20document.pdf" target="_blank"><h2>AICTE-QUALITY IMPROVEMENT PROGRAMME (FOREIGN UNIVERSITY)</h2></a>
+                   <p>
+                    Scheme provides scholarships to the faculty who fulfils eligibility criteria and obtains admission in the Doctoral Degree programme leading to award of PhD degree in any of the enlisted top 500 universities/institutes (based on the QS ranking, the Times ranking and the Shanghai ranking) in the world.
+                   </p>
+                   <br>
+                   <a href="https://www.aicte-india.org/sites/default/files/Scheme%20Document%20FDP.pdf" target="_blank"><h2>AICTE-FACULTY DEVELOPMENT PROGRAMME (FDP)</h2></a>
+                   <p>
+                    The scheme is intended to Institutions for induction training to teachers employed in AICTE approved Technical Institutions to facilitate up-gradation of knowledge and skill. Rs 5-7 Lakh are granted for the 2 weeks FDP.
+                   </p>
+                   <br>
+                  <a href="https://www.aicte-india.org/sites/default/files/AQIS_General_Instructions%202017_18.pdf" target="_blank"><h2>AICTE-SHORT TERM TRAINING PROGRAMME (STTP)</h2></a>
+                   <p>
+                    Short Term Training Program (STTP) intends to conduct faculty trainings through financial assistance from AICTE to enable faculty members in the field of technical education to introspect and learn techniques that can help prepare students for active and successful participants in a knowledge society.
+                   </p>
+                   <a href="https://aicte-india.org/sites/default/files/Scheme%20Document%20PTIs.pdf" target="_blank"><h2>AICTE-TRAINING PROGRAMS FOR PHYSICAL EDUCATION TRAINERS/SPORT-GAMES TEACHERS/DIRECTOR OF SPORTS</h2></a>
+                   <p>
+                    To Develop the skill of the participants to involve the masses in traditional sports/games and fun games for physical activity through recreation.
+                   </p>                    
+                  </div>
+                </div> 
+              </div>                
+            </div>
+         
+    
+    

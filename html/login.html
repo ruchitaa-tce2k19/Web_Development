@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+	<title>Login</title>
+  <script>
+    function login() {
+      const body = {
+        uname: document.getElementById('name').value,
+        pass: document.getElementById('pass').value,
+      }
+      fetch('http://localhost:3069/login', {
+        method: "POST",
+        body: JSON.stringify(body),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+      }).then(res=>{
+        if(res.status == 200) location.href = '..'
+        else alert('Not Authorized')
+      })
+    }
+  </script>
+</head>
+<body onload="window.alert('Page successfully loaded');">
+<div class="loginBg">
+<img src="loginBg.jpg" width="100%"></div>
+<div class="loginPg" id="id01">
+<form> 
+  <div class="imgcontainer">
+    <img src="login.jpg" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" id = "name" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id = "pass" placeholder="Enter Password" name="psw" required>
+
+    <button type="button" onclick="login()">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"><b> Remember me</b>
+    </label>   
+    <button type="button" class="cancelbtn">Cancel</button>     
+    <span class="psw"><a href="#"><b>Forgot password?</b></a></span>
+    <button type="button" class="signup" onclick="location.href='signup.html'">Create new account</button>	
+</div>
+</form>
+</div>
+</body>
+</html>
